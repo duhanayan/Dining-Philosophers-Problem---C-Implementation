@@ -38,6 +38,25 @@ cd DiningPhilosophers
 dotnet run -- 5 800 200 200
 ```
 
+## 📦 Running Binaries (No .NET SDK Required)
+
+If you don't have the .NET SDK installed, you can run the pre-compiled binaries located in the `build/` directory:
+
+### 💻 macOS
+```bash
+# For Apple Silicon (M1/M2/M3)
+./build/macOS-arm64/DiningPhilosophers 5 800 200 200
+
+# For Intel Macs
+./build/macOS-x64/DiningPhilosophers 5 800 200 200
+```
+*(You might need to grant execution permission: `chmod +x build/macOS-arm64/DiningPhilosophers`)*
+
+### 🖥️ Windows
+```powershell
+.\build\Windows-x64\DiningPhilosophers.exe 5 800 200 200
+```
+
 ## 📋 Usage
 
 ```bash
